@@ -1,6 +1,50 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python Packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Database
 *.db
+*.sqlite3
+
+# ML Models
 *.pkl
-.streamlit/
+*.pt
+*.pth
+*.onnx
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Docker
+*.tar
